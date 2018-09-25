@@ -21,7 +21,7 @@ public class UserController {
 	@GetMapping("/")
 	public String index(Model model) {
 		model.addAttribute("user", new User());
-		System.out.println("Enter");
+		System.out.println("Enter ");
 		return "index";
 	}
 
